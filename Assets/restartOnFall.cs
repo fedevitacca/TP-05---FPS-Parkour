@@ -13,11 +13,11 @@ public class restartOnFall : MonoBehaviour
     {
         
     }
-
+    
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.y < yFallHeight)
+        if (transform.position.y + 20 < yFallHeight)
         {
             Debug.Log("Me caí");
             SceneManager.LoadScene("TP 05 - FPS Parkour");
