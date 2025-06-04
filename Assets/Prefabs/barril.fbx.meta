@@ -5,7 +5,16 @@ ModelImporter:
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-  externalObjects: {}
+    2100000: Material.001
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Cylinder
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: barril textura 3
+    second: {fileID: 2800000, guid: 0169c899bc045cd44a6e6f92d5be653f, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
