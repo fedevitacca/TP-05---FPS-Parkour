@@ -15,7 +15,7 @@ public class DeteccionColisiones : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         Debug.Log(collision.gameObject.name);
-        if (collision.gameObject.name == "player")
+        if (collision.gameObject.name == "Player")
         {
             bool leAlcanza = moneyManager.UpdateMoney(-precio);
             if (leAlcanza)
