@@ -19,10 +19,13 @@ public class MoneyManager : MonoBehaviour
             Debug.Log($"No te alcanza para comprar este objeto");
             return false;
         }
-        
-        money += amount;
-        uiManager.UpdateMoneyText(money.ToString());
-        return true;
-        
+        else
+        {
+            money += amount;
+            uiManager.UpdateMoneyText(money.ToString());
+            return true;
+
+        }
+
     }
 }
